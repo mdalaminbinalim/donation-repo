@@ -1,0 +1,252 @@
+/* banner or header style */
+.main-head {
+    margin: 0;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    color: whitesmoke;
+    font-size: 35px;
+    text-align: center;
+    background-image: url('../images/donation1.jpg');
+    mix-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-composite: border;
+    font-family: 'Rubik Bubbles', cursive;
+}
+h5 {
+    margin: 0 300px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.btn-style {
+    color: whitesmoke;
+    background-color:tomato;
+    border: 0;
+    padding: 20px 35px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursive;
+}
+/* head-section style */
+.head-section {
+    text-align: center;
+    margin: 0px 400px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.h1-style {
+    font-size: 50px;
+    margin-top: 130px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+p {
+    font-size: 25px;
+    color: darkcyan;
+    font-family: 'Rubik Bubbles', cursive;
+}
+nav ul {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Bubbles', cursive;
+}
+nav li {
+    list-style: none;
+    font-size: 50px;
+    color: darkcyan;
+    position: relative;
+    font-family: 'Rubik Bubbles', cursive;
+}
+a {
+    text-decoration: none;
+    color: darkcyan;
+    font-family: 'Rubik Bubbles', cursive;
+}
+nav li a{
+    padding: 15px 10px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+nav li a:hover {
+    border: 4px solid tomato;
+    color: tomato;
+    border-radius: 20px;
+    border-color: tomato;
+    font-family: 'Rubik Bubbles', cursive;
+    background-color: wheat;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    color: cadetblue;
+    font-size: 20px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+hr {
+    margin: 0 250px;
+}
+.btn2 {
+    color: whitesmoke;
+    background-color:tomato;
+    border: 0;
+    padding: 20px 35px;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 600px 0 630px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+/* donate plan style */
+
+.donate {
+    text-align: center;
+    margin: 0px 400px;
+    font-size: 50px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.donate-p {
+    margin: 0px 400px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.donate-plan {
+    display: flex;
+    gap: 24px;
+    margin: 0 100px;
+    font-family: 'Rubik Bubbles', cursive;
+}  
+.donate-title1, .donate-title2, .donate-title3 {
+    padding: 40px;
+    text-align: center;
+    box-shadow: 5px 10px #888888;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.donate-title1 {
+    background-color: aqua;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.donate-title2 {
+    background-color: beige;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.donate-title3 {
+    background-color: burlywood;
+    font-family: 'Rubik Bubbles', cursive;
+}
+/* contribute styles */
+.contribute1 {
+    display: flex;
+    gap: 30px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.contribute-head {
+    font-size: 50px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.contribute-img {
+    margin-right: 150px;
+    margin-top: 150px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.contribute-text {
+    padding: 90px;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.btn3 {
+    color: whitesmoke;
+    background-color:tomato;
+    border: 0;
+    padding: 15px 25px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.contribute2 {
+    display: flex;
+    gap: 10px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.contribute-head1 {
+    font-size: 50px;
+    margin-left: 10px;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-family: 'Rubik Bubbles', cursive;
+}    
+.contribute-img1 {
+    margin-top: 100px;
+    padding: 90px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.contribute-p {
+    margin-right: 200px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+/* footer styles */
+.p1 {
+    font-size: 20px;
+    border: 1px solid lightpink;
+    border-radius: 5px;
+    text-align:calc(50% - 10px) ;
+    margin: 0 500px;
+    margin-left: 10px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.form {
+    display: flex;
+    gap: 0px;
+    border-radius: 20px;
+    background-color:bisque;
+    padding-left: 250px ;
+    margin-left: 300px;
+    margin-right: 250px;
+    padding-right: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+input {
+    border: none;
+    font-size: 20px;
+    background-color:lightgray ;
+    border-radius: 3px;
+    border-color: lightgray;
+    text-align: calc(50% - 50px);
+    padding-left: 15px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.sub {
+    border-radius: 3px;
+    background-color: tomato;
+    color: whitesmoke;
+    font-size: 20px;
+    border-color: tomato;
+    padding: 10px;
+    font-family: 'Rubik Bubbles', cursive;
+    
+}
+.final {
+    text-align: center;
+    background-color: black;
+    padding-top: 43px;
+    padding-bottom: 42px;
+}
+.final-p {
+    font-weight:600;
+    font-size: 40px;
+    color: tomato;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.last-text {
+    margin-top: 10px;
+}
